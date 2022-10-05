@@ -1,8 +1,8 @@
 const Product = require('../models/productModel')
-const cors = require('cors');
-app.use(cors({
-    origin: '*'
-}));
+// const cors = require('cors');
+// app.use(cors({
+//     origin: '*'
+// }));
 
 const { getPostData } = require('../utils')
 
