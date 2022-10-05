@@ -1,4 +1,8 @@
 const Product = require('../models/productModel')
+const cors = require('cors');
+app.use(cors({
+    origin: 'https://startling-salmiakki-a5468d.netlify.app/portfolio'
+}));
 
 const { getPostData } = require('../utils')
 
